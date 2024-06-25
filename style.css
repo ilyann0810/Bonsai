@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Proxima Nova Font'; /* Name your font family */
+    src: url('Proxima Nova Font.otf'); /* Locate the .ttf file within your directory*/
+  }
+
+body{
+    margin: 0;
+    min-height: 100%;
+    background-color: #fff;
+    color: #4c4d5f;
+    font-family: 'Proximanova opt',sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #4c4d5f;
+    font-size: 17px;
+    line-height: 20px;
+    
+}
+header{
+    padding: 0 2rem;
+    background-color: #fff;
+    
+}
+.navbar{
+    width: 100%;
+    max-width: 1300px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+li{
+    list-style: none;
+    
+}
+
+.button{
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+.nav-log {
+    border: 1px solid #00b289;
+    color: #00b289;
+    background-color: #fff;
+    padding: 12px 27px 9px;
+    border-radius: 4px;
+}
+
+.nav-start {
+    border: 1px solid #00b289;
+    color: #fff;
+    background-color: #00b289;
+    padding: 12px 27px 9px;
+    border-radius: 4px;
+    
+}
+.blueshape{
+    position: absolute;
+    display: block;
+    left: 80px;
+    top: -88%;
+    right: -23%;
+    width: 90%;
+    height: 130%;
+    bottom: auto;
+    background-color: #f2faff;
+    z-index: -1;
+    border-radius: 6.6vw;
+    -webkit-transform: rotate(-23deg);
+}
+.page-wrap{
+    height: 1300px;
+    position: relative;
+    
+}
+.navbar_menu{
+    
+    display: flex;
+    color: #4c4d5f;
+    font-weight: 400;
+    gap: 40px;
+    
+
+}
